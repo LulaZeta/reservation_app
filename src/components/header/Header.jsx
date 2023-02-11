@@ -80,6 +80,7 @@ export const Header = () => {
                 moveRangeOnFirstSelection={false}
                 ranges={date}
                 className="date"
+                rangeColors={['#01b594']}
               />
             )}
           </div>
