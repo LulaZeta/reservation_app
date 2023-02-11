@@ -1,3 +1,12 @@
+#INstalaciones
+
+1. npx react-app
+2. react-router-dom
+3. npm i --save @fortawesome/free-solid-svg-icons
+4. $ npm i --save @fortawesome/free-regular-svg-icons
+5. npm i --save @fortawesome/react-fontawesome@latest
+6.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
