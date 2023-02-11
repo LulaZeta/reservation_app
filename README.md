@@ -5,7 +5,8 @@
 3. npm i --save @fortawesome/free-solid-svg-icons
 4. $ npm i --save @fortawesome/free-regular-svg-icons
 5. npm i --save @fortawesome/react-fontawesome@latest
-6.
+6. npm i react-date-range
+7. npm i date-fns
 
 # Getting Started with Create React App
 

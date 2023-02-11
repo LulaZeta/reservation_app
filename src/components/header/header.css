@@ -67,3 +67,8 @@
   color: rgb(181, 181, 181);
   cursor: pointer;
 }
+
+.date {
+  position: absolute;
+  top: 50px;
+}
