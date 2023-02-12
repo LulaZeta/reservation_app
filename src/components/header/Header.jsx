@@ -14,7 +14,7 @@ import 'react-date-range/dist/theme/default.css'; // theme css file
 import { format } from 'date-fns';
 import { useState } from 'react';
 
-export const Header = () => {
+const Header = () => {
   const [openDate, setOpenDate] = useState(false);
   const [date, setDate] = useState([
     {
@@ -179,3 +179,5 @@ export const Header = () => {
     </div>
   );
 };
+
+export default Header;
