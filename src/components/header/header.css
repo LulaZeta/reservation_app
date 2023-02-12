@@ -72,6 +72,7 @@
 }
 .headerSearchText {
   color: rgb(181, 181, 181);
+  font-size: 13px;
   cursor: pointer;
 }
 

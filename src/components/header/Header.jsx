@@ -11,7 +11,7 @@ import {
 import { DateRange } from 'react-date-range';
 import 'react-date-range/dist/styles.css'; // main css file
 import 'react-date-range/dist/theme/default.css'; // theme css file
-import { format } from 'date-fns';
+//import { format } from 'date-fns';
 import { useState } from 'react';
 
 const Header = ({ type }) => {
@@ -93,10 +93,7 @@ const Header = ({ type }) => {
                 <span
                   onClick={() => setOpenDate(!openDate)}
                   className="headerSearchText"
-                >{`${format(date[0].startDate, 'MM/dd/yyyy')} to ${format(
-                  date[0].endDate,
-                  'MM/dd/yyyy'
-                )} `}</span>
+                >{`${date[0].startDate.toDateString()} to ${date[0].endDate.toDateString()} `}</span>
                 {openDate && (
                   <DateRange
                     editableDateInputs={true}
