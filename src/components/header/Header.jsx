@@ -7,6 +7,7 @@ import {
   faTaxi,
   faCalendarDays,
   faPerson,
+  faParachuteBox,
 } from '@fortawesome/free-solid-svg-icons';
 import { DateRange } from 'react-date-range';
 import 'react-date-range/dist/styles.css'; // main css file
@@ -67,7 +68,7 @@ const Header = ({ type }) => {
             <span>Car rentals</span>
           </div>
           <div className="headerListItem">
-            <FontAwesomeIcon icon={faBed} />
+            <FontAwesomeIcon icon={faParachuteBox} />
             <span>Attractions</span>
           </div>
           <div className="headerListItem">
