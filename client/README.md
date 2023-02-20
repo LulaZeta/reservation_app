@@ -7,6 +7,8 @@
 5. npm i --save @fortawesome/react-fontawesome@latest
 6. npm i react-date-range
 7. npm i date-fns
+8. npm i axios
+9. package.json => "proxy":"http://localhost:3001/api" 1:36
 
 # Getting Started with Create React App
 
