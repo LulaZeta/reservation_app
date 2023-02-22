@@ -12,7 +12,7 @@ const List = () => {
   const location = useLocation();
   //console.log(location);
   const [destination, setDestination] = useState(location.state.destination);
-  const [date, setDate] = useState(location.state.date);
+  const [dates, setDates] = useState(location.state.dates);
   const [openDate, setOpenDate] = useState(false);
   const [options, setOptions] = useState(location.state.options);
   const [min, setMin] = useState(undefined);
@@ -44,15 +44,15 @@ const List = () => {
               <span
                 onClick={() => setOpenDate(!openDate)}
                 className="headerSearchText"
-              >{`${format(date[0].startDate, 'EEEEEE, dd MMM')} - ${format(
-                date[0].endDate,
+              >{`${format(dates[0].startDate, 'EEEEEE, dd MMM')} - ${format(
+                dates[0].endDate,
                 'EEEEEE, dd MMM'
               )} `}</span>
               {openDate && (
                 <DateRange
-                  onChange={(item) => setDate([item.selection])}
+                  onChange={(item) => setDates([item.selection])}
                   minDate={new Date()}
-                  ranges={date}
+                  ranges={dates}
                   rangeColors={['#01b594']}
                 />
               )}
