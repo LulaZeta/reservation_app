@@ -36,7 +36,14 @@ function App() {
               }
             />
             <Route path="users">
-              <Route index element={<List />} />
+              <Route
+                index
+                element={
+                  <ProtectedRoute>
+                    <List />
+                  </ProtectedRoute>
+                }
+              />
               <Route path=":userId" element={<Single />} />
               <Route
                 path="new"
@@ -45,10 +52,21 @@ function App() {
             </Route>
             <Route path="products">
               <Route index element={<List />} />
-              <Route path=":productId" element={<Single />} />
+              <Route
+                path=":productId"
+                element={
+                  <ProtectedRoute>
+                    <Single />
+                  </ProtectedRoute>
+                }
+              />
               <Route
                 path="new"
-                element={<New inputs={productInputs} title="Add New Product" />}
+                element={
+                  <ProtectedRoute>
+                    <New inputs={productInputs} title="Add New Product" />
+                  </ProtectedRoute>
+                }
               />
             </Route>
           </Route>
