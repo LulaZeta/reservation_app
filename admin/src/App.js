@@ -48,7 +48,11 @@ function App() {
               <Route path=":userId" element={<Single />} />
               <Route
                 path="new"
-                element={<New inputs={userInputs} title="Add New User" />}
+                element={
+                  <ProtectedRoute>
+                    <New inputs={userInputs} title="Add New User" />
+                  </ProtectedRoute>
+                }
               />
             </Route>
             <Route path="hotels">
