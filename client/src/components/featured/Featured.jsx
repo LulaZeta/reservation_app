@@ -15,35 +15,35 @@ const Featured = () => {
         <>
           <div className="featuredItem">
             <img
-              src="https://cf.bstatic.com/xdata/images/city/max500/957801.webp?k=a969e39bcd40cdcc21786ba92826063e3cb09bf307bcfeac2aa392b838e9b7a5&o="
+              src="https://xx.bstatic.com/xdata/images/xphoto/1182x887/191447725.jpg?k=9ef3b3f75c8f34ae1c13cd18831cfe69af91c2664c909b0bc6de05ef6b9c1dc9&o=?size=M"
               alt=""
               className="featuredImg"
             />
             <div className="featuredTitles">
-              <h1>Madrid</h1>
+              <h1>Japon</h1>
               <h2>{data[0]} properties</h2>
             </div>
           </div>
 
           <div className="featuredItem">
             <img
-              src="https://cf.bstatic.com/xdata/images/city/max500/690334.webp?k=b99df435f06a15a1568ddd5f55d239507c0156985577681ab91274f917af6dbb&o="
+              src="https://bstatic.com/data/xphoto/1182x887/232/23282594.jpg?size=S"
               alt=""
               className="featuredImg"
             />
             <div className="featuredTitles">
-              <h1>Berlin</h1>
+              <h1>Suiza</h1>
               <h2>{data[1]} properties</h2>
             </div>
           </div>
           <div className="featuredItem">
             <img
-              src="https://cf.bstatic.com/xdata/images/city/max500/689422.webp?k=2595c93e7e067b9ba95f90713f80ba6e5fa88a66e6e55600bd27a5128808fdf2&o="
+              src="https://bstatic.com/xdata/images/xphoto/1182x887/144809298.jpg?k=48815307d2c2a45fb4873442db235dfb2a2332502c077d5bbaa999b644562c8b&o=?size=S"
               alt=""
               className="featuredImg"
             />
             <div className="featuredTitles">
-              <h1>Porto</h1>
+              <h1>Rumania</h1>
               <h2>{data[2]} properties</h2>
             </div>
           </div>
