@@ -54,7 +54,7 @@ const NewRoom = () => {
                 <textarea
                   onChange={(e) => setRooms(e.target.value)}
                   placeholder="give comma between room numbers"
-                ></textarea>{' '}
+                ></textarea>
               </div>
 
               <div className="formInput">
